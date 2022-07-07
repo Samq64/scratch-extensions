@@ -1,6 +1,7 @@
 class MouseCursor {
     constructor(runtime) {
-        this.runtime = runtime
+        this.runtime = runtime;
+        this.stage = document.body.querySelector(".stage_stage_1fD7k.box_box_2jjDp");
     }
 
     getInfo() {
@@ -47,20 +48,19 @@ class MouseCursor {
     }
 
     SwitchCur({cur}) {
-        document.body.style.cursor = cur;
+        this.stage.style.cursor = cur;
     }
 
     hide() {
-        document.body.style.cursor = "none";
+        this.stage.style.cursor = "none";
     }
     
     reset() {
-        document.body.style.cursor = "auto";
+        this.stage.style.cursor = "auto";
     }
 
     GetCur() {
-        let cur = document.body.style.cursor;
-        return cur;
+        return this.stage.style.cursor;
     }
 }
 
