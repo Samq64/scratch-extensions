@@ -3,4 +3,4 @@
  
  ### Extensions
  
- - [Mouse Cursor](https://sheeptester.github.io/scratch-gui/?load_plugin=https://samq64.github.io/scratch-extensions/MouseCursor.js)
+ - [Mouse Cursor](https://sheeptester.github.io/scratch-gui/?load_plugin=https%3A%2F%2Fsamq64.github.io%2Fscratch-extensions%2Fextensions%2FMouseCursor.js)
